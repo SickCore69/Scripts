@@ -1,7 +1,7 @@
 #!/bin/bash
 
 function ctrl_c(){
-	echo -e "\n\n[!] Saliendo...\n"
+  echo -e "\n\n[!] Saliendo...\n"
 	tput cnorm; exit 1
 }
 
